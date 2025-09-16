@@ -3,7 +3,7 @@
 
 
 #load mtcars data
-
+load(mtcars)
 
 #display a summary table of the data
 
