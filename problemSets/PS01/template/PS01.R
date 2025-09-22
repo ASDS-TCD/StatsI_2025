@@ -35,8 +35,31 @@ lapply(c(),  pkgTest)
 
 y <- c(105, 69, 86, 100, 82, 111, 104, 110, 87, 108, 87, 90, 94, 113, 112, 98, 80, 97, 95, 111, 114, 89, 95, 126, 98)
 
+# 1. Find a 90% confidence interval for the average student IQ in the school.
+
+
+# 2. Next, the school counselor was curious whether the average student IQ in her school 
+#    is higher than the average IQ score (100) among all the schools in the country.
+#    Using the same sample, conduct the appropriate hypothesis test with α = 0.05.
+
+
+
 #####################
 # Problem 2
 #####################
 
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_2025/main/datasets/expenditure.txt", header=T)
+
+# Please plot the relationships among Y, X1, X2, and X3? What are the correlations among them 
+# (you just need to describe the graph and the relationships among them)?
+
+
+
+# Please plot the relationship between Y and Region? On average, 
+# which region has the highest per capita expenditure on housing assistance?
+
+
+
+# Please plot the relationship between Y and X1? Describe this graph and the relationship.
+# Reproduce the above graph including one more variable Region and display
+# different regions with different types of symbols and colors.
