@@ -36,6 +36,17 @@ lapply(c(),  pkgTest)
 y <- c(105, 69, 86, 100, 82, 111, 104, 110, 87, 108, 87, 90, 94, 113, 112, 98, 80, 97, 95, 111, 114, 89, 95, 126, 98)
 
 # 1. Find a 90% confidence interval for the average student IQ in the school.
+z90 <- qnorm((1 - 0.90) / 2, lower.tail = FALSE)
+class_mean <- mean(y, na.rm = TRUE)
+class_sd <- sd(y, na.rm = TRUE)
+n <- length(y)
+
+# constructing the confidence interval
+lower_90 <- class_mean - (z90 * (class_sd / sqrt(n)))
+upper_90 <- class_mean + (z90 * (class_sd / sqrt(n)))
+confint90 <- c(lower_90, upper_90)
+
+# this constructed 90% confidence interval demonstrates a range of 94.1 to 102.7.
 
 
 # 2. Next, the school counselor was curious whether the average student IQ in her school 
