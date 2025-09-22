@@ -34,9 +34,17 @@ lapply(c(),  pkgTest)
 #####################
 
 y <- c(105, 69, 86, 100, 82, 111, 104, 110, 87, 108, 87, 90, 94, 113, 112, 98, 80, 97, 95, 111, 114, 89, 95, 126, 98)
+t.test(y, mu=100, alternative = "two.sided")
+
+
+
+
+
 
 #####################
 # Problem 2
 #####################
 
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_2025/main/datasets/expenditure.txt", header=T)
+ggplot(data=expenditure,mapping=aes(x=region,y=per=capita on housing))
+

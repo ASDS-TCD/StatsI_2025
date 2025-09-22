@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.21)  21 SEP 2025 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.18)  18 SEP 2025 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -940,133 +940,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-(PS01.R
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
 
 [1
 
-{C:/Users/molly/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+{C:/Users/molly/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (PS01.R)
 
- []
-
-(PS01.R
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 # H0:μ=
-             100
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 # H0:μ=
-             100
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 # Ha:μ>
-             100
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 # Ha:μ>
-             100
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
-[2]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7
-6.
- (C:\Users\molly\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-)
-
-[3] (PS01.R
-
-[4])
-<per_capita_expenditure.pdf, id=101, 471.7625pt x 500.87125pt>
-File: per_capita_expenditure.pdf Graphic file (type pdf)
-<use per_capita_expenditure.pdf>
-Package pdftex.def Info: per_capita_expenditure.pdf  used on input line 127.
-(pdftex.def)             Requested size: 471.76134pt x 500.87001pt.
-
-Overfull \hbox (31.38101pt too wide) in paragraph at lines 127--130
-[]
- []
-
-
-
-[5] (PS01.R)
-<per_capita_housing_assistance.pdf, id=116, 505.89pt x 505.89pt>
-File: per_capita_housing_assistance.pdf Graphic file (type pdf)
-<use per_capita_housing_assistance.pdf>
-Package pdftex.def Info: per_capita_housing_assistance.pdf  used on input line 
-134.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<per_capita_housing_assistance_colors.pdf, id=117, 505.89pt x 505.89pt>
-File: per_capita_housing_assistance_colors.pdf Graphic file (type pdf)
-<use per_capita_housing_assistance_colors.pdf>
-Package pdftex.def Info: per_capita_housing_assistance_colors.pdf  used on inpu
-t line 135.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-Overfull \hbox (65.50842pt too wide) in paragraph at lines 134--138
-[]
- []
-
-
-Overfull \hbox (65.50842pt too wide) in paragraph at lines 134--138
-[]
- []
-
-
-
-[6 <./per_capita_expenditure.pdf>]
-
-[7 <./per_capita_housing_assistance.pdf>]
-
-[8 <./per_capita_housing_assistance_colors.pdf>] (PS01.aux)
+[2] (PS01.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -1075,13 +960,13 @@ Package rerunfilecheck Info: File `PS01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27385 strings out of 468133
- 480690 string characters out of 5430712
- 1447456 words of memory out of 5000000
- 55430 multiletter control sequences out of 15000+600000
+ 27221 strings out of 468133
+ 477595 string characters out of 5430712
+ 1106471 words of memory out of 5000000
+ 55355 multiletter control sequences out of 15000+600000
  637611 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,91p,3238b,2152s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,91p,3238b,2131s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\molly\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk> <C:\Users\molly\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1200.pk><C:/Users/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1092,13 +977,12 @@ onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/molly/AppData/Local/Programs
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/molly/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/moll
 y/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Use
-rs/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+rs/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pf
 b><C:/Users/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmti12.pfb><C:/Users/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb>
-Output written on PS01.pdf (8 pages, 182671 bytes).
+cmtt12.pfb>
+Output written on PS01.pdf (2 pages, 113362 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

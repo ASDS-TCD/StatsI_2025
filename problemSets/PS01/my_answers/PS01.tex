@@ -80,16 +80,19 @@
 A school counselor was curious about the average of IQ of the students in her school and took a random sample of 25 students' IQ scores. The following is the data set:\\
 \vspace{.5cm}
 
-\lstinputlisting[language=R, firstline=36, lastline=37]{PS01.R}  
+\lstinputlisting[language=R, firstline=36, lastline=36]{PS01.R}  
 
 \vspace{1cm}
 
 \begin{enumerate}
 	\item Find a 90\% confidence interval for the average student IQ in the school.\\
+	\lstinputlisting[language=R, firstline=36, lastline=61]{PS01.R}
 	
 	\item Next, the school counselor was curious  whether  the average student IQ in her school is higher than the average IQ score (100) among all the schools in the country.\\ 
 	
 	\noindent Using the same sample, conduct the appropriate hypothesis test with $\alpha=0.05$.
+	\lstinputlisting[language=R, firstline=63, lastline=81]{PS01.R}  
+	
 \end{enumerate}
 
 \newpage
@@ -111,8 +114,7 @@ A school counselor was curious about the average of IQ of the students in her sc
 
 \vspace{.5cm}
 \noindent Explore the \texttt{expenditure} data set and import data into \texttt{R}.
-\vspace{.5cm}
-\lstinputlisting[language=R, firstline=54, lastline=54]{PS01.R}  
+\vspace{.5cm}  
 \vspace{.5cm}
 \begin{itemize}
 
@@ -121,9 +123,19 @@ Please plot the relationships among \emph{Y}, \emph{X1}, \emph{X2}, and \emph{X3
 \vspace{.5cm}
 \item
 Please plot the relationship between \emph{Y} and \emph{Region}? On average, which region has the highest per capita expenditure on housing assistance?
+\lstinputlisting[language=R, firstline=117, lastline=140]{PS01.R} 
+\includegraphics{per_capita_expenditure.pdf}
 \vspace{.5cm}
 \item
+
+
 Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph and the relationship. Reproduce the above graph including one more variable \emph{Region} and display different regions with different types of symbols and colors.
+\lstinputlisting[language=R, firstline=143, lastline=165]{PS01.R}
+\includegraphics{per_capita_housing_assistance.pdf}
+\includegraphics{per_capita_housing_assistance_colors.pdf}
+\vspace{.5cm}
+\item
+ 
 \end{itemize}
 
 
