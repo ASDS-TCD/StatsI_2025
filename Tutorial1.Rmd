@@ -1,0 +1,16 @@
+---
+title: "Tutorial1"
+output: pdf_document
+date: "2025-09-23"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#load data
+```{r}
+
+df <- read.csv("datasets/movies.csv")
+
+```
