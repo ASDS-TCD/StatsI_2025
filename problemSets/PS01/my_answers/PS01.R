@@ -54,9 +54,9 @@ t_critical <- qt(0.95,df=sample.n-1)
 margin_error <- t_critical * sample.se
 # I did this step to find the discrepancy between the sample and the t value.The margin_error is 4.48.
 lower_bound <-sample.mean-margin_error
-#The lowest possible value within the 90 percent confidence level for the population parameter. The lower_bound is 93.95. 
+#The lowest possible value within the 90 percent confidence level for the population parameter is 93.95. 
 upper_bound <-sample.mean +margin_error
-# The highest possible value within the 90 percent confidence level for the population parameter. The upper bound is 102.92. 
+# The highest possible value within the 90 percent confidence level for the population parameter is 102.92. 
 print(c(lower_bound,upper_bound))
 # This shows the 90 percent confidence intervals  of the average student IQ in the school for upper and lower values. Meaning, if sampling was conducted numerous times 90 percent of the student's IQ scores would fall between 93.95-102.92  
 
@@ -93,33 +93,52 @@ if(p_value < alpha){
 #####################
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_2025/main/datasets/expenditure.txt", header=T)
 expenditure$Per_Capita_Expenditure_Housing <-expenditure$Y
+# I am creating a new column within the expenditure data frame for Y 
 expenditure$Per_Capita_Personal_Income_State <-expenditure$X1
+# I am creating a new column within the expenditure data frame for X1.
 expenditure$Number_Residents_Financially_Insecure_Per_Hundred_Thousand <-expenditure$X2 
+# I am creating a new column within the expenditure data frame for X2. 
 expenditure$Number_People_Residing_Urban_Areas_Per_Thousand <-expenditure$X3
+# I am creating a new column within the expenditure data frame for X3.
 Per_Capita_Expenditure_Housing <-expenditure$Y
+# I am pulling out the new vector so that R recognizes it as Y. 
 Per_Capita_Personal_Income_State <-expenditure$X1
+# I am pulling out the new vector so that R recognizes it as X1.  
 Number_Residents_Financially_Insecure_Per_Hundred_Thousand <-expenditure$X2
+# I am pulling out the new vector so that R recognizes it as X2. 
 Number_People_Residing_Urban_Areas_Per_Thousand <-expenditure$X3
- 
- 
- 
+#I am pulling out the new vector so that R recognizes it as X3.
+library(tidyverse)
+# I am working in ggplot and I need to restructure the data in the long format. This is because I am comparing multiple x variables to one y variable. 
+df_long <- pivot_longer(
+  df,
+  cols = c(Per_Capita_Personal_Income_State,
+           Number_Residents_Financially_Insecure_Per_Hundred_Thousand,
+           Number_People_Residing_Urban_Areas_Per_Thousand),
+  names_to = "Variable",
+  values_to = "X_value"
+)
 
+# I did the pretty labels to get rid of the dashes between the titles. 
+pretty_labels <- c(
+  Per_Capita_Personal_Income_State = "Per Capita Personal Income",
+  Number_Residents_Financially_Insecure_Per_Hundred_Thousand = "Financially Insecure Residents per 100,000",
+  Number_People_Residing_Urban_Areas_Per_Thousand = "Urban Residents per 1,000"
+)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# I am creating side by side scatter plots using ggplot.I used facet wrap because each x variable has a different scale it is measured by. I used the df long from the step above to be able to compare the multiple x variables against one y variable. 
+ggplot(df_long, aes(x = X_value, y = Per_Capita_Expenditure_Housing)) +
+  geom_point(color = "blue", size = 2, alpha = 0.7) +
+  facet_wrap(~Variable, scales = "free_x",
+             labeller = labeller(Variable = pretty_labels)) +
+  labs(
+    title = "Per Capita Housing Assistance vs X Values",
+    x = "X Values",
+    y = "Per Capita Expenditure on Housing Assistance"
+  ) +
+  theme_minimal()
+ggsave("C:/Users/molly/OneDrive/Documents/GitHub/StatsI_2025/problemSets/PS01/my_answers/Per_Capita_Housing_X_Values.pdf")
+# Per capita personal income and urban residents per 1,000 are positively related to each other, meaning states with higher incomes also tend to have more urban residents. Both of these predictors also show a positive relationship with per capita housing assistance: higher income and more urban residents correspond to higher housing expenditure. For financially insecure residents per 100,000, there is no clear relationship either with the other predictors or with housing assistance.
 
 
 

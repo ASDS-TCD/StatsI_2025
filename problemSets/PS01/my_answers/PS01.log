@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.21)  21 SEP 2025 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.21)  23 SEP 2025 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -924,9 +924,12 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 (C:\Users\molly\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 83.
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
+ []
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 89.
 (PS01.R
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
 6.
@@ -935,12 +938,7 @@ File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 36.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
- []
-
-(PS01.R
 
 [1
 
@@ -1025,48 +1023,66 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 [3] (PS01.R
 
 [4])
-<per_capita_expenditure.pdf, id=101, 471.7625pt x 500.87125pt>
+<per_capita_housing_X_values.pdf, id=107, 473.77pt x 317.185pt>
+File: per_capita_housing_X_values.pdf Graphic file (type pdf)
+<use per_capita_housing_X_values.pdf>
+Package pdftex.def Info: per_capita_housing_X_values.pdf  used on input line 12
+4.
+(pdftex.def)             Requested size: 473.76884pt x 317.1842pt.
+
+Overfull \hbox (33.38852pt too wide) in paragraph at lines 124--125
+[] 
+ []
+
+
+
+[5] (PS01.R
+
+[6 <./per_capita_housing_X_values.pdf>])
+<per_capita_expenditure.pdf, id=166, 471.7625pt x 500.87125pt>
 File: per_capita_expenditure.pdf Graphic file (type pdf)
 <use per_capita_expenditure.pdf>
-Package pdftex.def Info: per_capita_expenditure.pdf  used on input line 127.
+Package pdftex.def Info: per_capita_expenditure.pdf  used on input line 130.
 (pdftex.def)             Requested size: 471.76134pt x 500.87001pt.
 
-Overfull \hbox (31.38101pt too wide) in paragraph at lines 127--130
+Overfull \hbox (31.38101pt too wide) in paragraph at lines 130--133
 []
  []
 
 
 
-[5] (PS01.R)
-<per_capita_housing_assistance.pdf, id=116, 505.89pt x 505.89pt>
+[7] (PS01.R
+
+[8 <./per_capita_expenditure.pdf>])
+<per_capita_housing_assistance.pdf, id=194, 505.89pt x 505.89pt>
 File: per_capita_housing_assistance.pdf Graphic file (type pdf)
 <use per_capita_housing_assistance.pdf>
 Package pdftex.def Info: per_capita_housing_assistance.pdf  used on input line 
-134.
+137.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<per_capita_housing_assistance_colors.pdf, id=117, 505.89pt x 505.89pt>
+<per_capita_housing_assistance_colors.pdf, id=195, 505.89pt x 505.89pt>
 File: per_capita_housing_assistance_colors.pdf Graphic file (type pdf)
 <use per_capita_housing_assistance_colors.pdf>
 Package pdftex.def Info: per_capita_housing_assistance_colors.pdf  used on inpu
-t line 135.
+t line 138.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-Overfull \hbox (65.50842pt too wide) in paragraph at lines 134--138
+Overfull \hbox (65.50842pt too wide) in paragraph at lines 137--141
 []
  []
 
 
-Overfull \hbox (65.50842pt too wide) in paragraph at lines 134--138
+Overfull \hbox (65.50842pt too wide) in paragraph at lines 137--141
 []
  []
 
 
 
-[6 <./per_capita_expenditure.pdf>]
+[9]
 
-[7 <./per_capita_housing_assistance.pdf>]
+[10 <./per_capita_housing_assistance.pdf>]
 
-[8 <./per_capita_housing_assistance_colors.pdf>] (PS01.aux)
+[11 <./per_capita_housing_assistance_colors.pdf>] (PS01.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -1075,13 +1091,13 @@ Package rerunfilecheck Info: File `PS01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27385 strings out of 468133
- 480690 string characters out of 5430712
- 1447456 words of memory out of 5000000
- 55430 multiletter control sequences out of 15000+600000
+ 27508 strings out of 468133
+ 482459 string characters out of 5430712
+ 1451757 words of memory out of 5000000
+ 55482 multiletter control sequences out of 15000+600000
  637611 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,91p,3238b,2152s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,91p,3238b,2833s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\molly\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk> <C:\Users\molly\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1200.pk><C:/Users/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1096,9 +1112,9 @@ rs/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Users/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmti12.pfb><C:/Users/molly/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb>
-Output written on PS01.pdf (8 pages, 182671 bytes).
+Output written on PS01.pdf (11 pages, 218808 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
